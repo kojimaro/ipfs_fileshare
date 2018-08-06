@@ -9,245 +9,89 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Digital Art Chain - Publish your own arts on blockchain</title>
+    <title>IPFS Fileshare</title>
 
-    <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
-        crossorigin="anonymous">
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Digital Art Chain</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="publish.html">Publish</a>
-                    </li>
-                    <li>
-                            <a class="page-scroll" href="tunes.html">Sound</a>
-                        </li>
-                        <li>
-                                <a class="page-scroll" href="canvas.html">Canvas</a>
-                            </li>
-                    <li>
-                        <a class="page-scroll" href="avatars.html">Avatars</a>
-                    </li>		
-                    <li>
-                        <a class="page-scroll" href="mypage.html">MyDigitalArt</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="https://opensea.io/category/digitalartchain">Market</a>
-					</li>		
-                    <li>
-                        <a class="page-scroll" href="http://story.digitalartchain.com/">Story</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Example</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <a class="navbar-brand page-scroll" href="index.html">IPFS Fileshare</a>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Publish your own digital art on block chain</h1>
-                <hr>
-                <p>You can publish your digital art as ERC721 token on Ethereum platform.</p>
-                <a href="publish.html" class="btn btn-primary btn-xl page-scroll">publish Digital Art</a>
-            </div>
-        </div>
-    </header>
+    <section>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">How Digital Art Chain Works?</h2>
-                    <hr class="light">
-                    <p class="text-faded">Digital Art is published on IPFS - InterPlanetary File System and associated to Ethereum ERC721 token
-                        which enables you own/sell/purchase published Digital Art.</p>
-                    <p class="text-faded">Now it's time for you to publish "Your Own Digital Art" on blockchain.</p>
-                    <a href="publish.html" class="btn btn-default btn-xl">Publish Digital Art</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        <form id="ipfsForm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>You can share your file by IPFS.</h5>
+                        <p> Please do not upload ilegal contents. This service assumes no responsibility.</p>
+                        <div class="form-group">
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-file-image-o wow bounceIn text-primary"></i>
-                        <h3>Publish Digital Art</h3>
-                        <p class="text-muted">You can convert any image file to Digital Art with simple process.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Token Social Network</h3>
-                        <p class="text-muted">Userfeeds takes your token to token social network.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-coffee wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Actual Goods</h3>
-                        <p class="text-muted">Crypto Goods converts Digital Art to actual goods.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-gamepad wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Digital Art on Game</h3>
-                        <p class="text-muted">Blockchain based game can be integrated with Digital Art Chain</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                            <label class="control-label">Choose image file</label>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" style="cursor: pointer">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    photograph
+                            <div class="dropzone-wrapper">
+                                <div class="dropzone-desc">
+                                    <i class="glyphicon glyphicon-download-alt"></i>
+                                    <p>Select or Drop image file</p>
                                 </div>
+                                <input type="file" name="img_logo" class="dropzone" id="publish" accept="image/*" onChange="readFile(this)">
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" style="cursor: pointer">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    picture
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" style="cursor: pointer">
-                        <img src="img/portfolio/3.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Character
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+
+                        <p id="message">
+                            <p>
+                                <p>
+                                    <a src="" id="link"></a>
+                                </p>
+                    </div>
                 </div>
 
+
             </div>
-        </div>
+        </form>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Any image file can be your Digital Art!</h2>
-                <a href="publish.html" class="btn btn-default btn-xl wow tada">Publish Digital Art</a>
-            </div>
-        </div>
-    </aside>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Partnership is always welcome, please fill free to contact me.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="https://twitter.com/ookimaki_JP">
-                        <i class="fab fa-twitter fa-3x"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Digital Art Chain logic -->
+    <script src="js/buffer.js"></script>
+    <script src="js/ipfs.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script>
+        var ipfs2 = window.IpfsApi({ host: 'ipfs.infura.io', protocol: 'https' })
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        function readFile(input) {
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+            var file = document.getElementById("publish");
+            var message = document.getElementById("message");
+            var link = document.getElementById("link");
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
+            message.innerHTML = "Now Loading...";
+            var reader = new FileReader();
+            reader.onloadend = function (event) {
+                var buf = buffer.Buffer(reader.result)
+                ipfs2.add(buf, (err, result) => {
+                    imageHash = result[0].hash;
+                    var url = "https://ipfs.io/ipfs/" + imageHash;
+                    message.innerHTML = "You can share your file by following link";
+                    link.innerHTML = url;
+                    link.href = url;
+                });
+            }
+            reader.readAsArrayBuffer(file.files[0]);
+        }
+    </script>
 </body>
 
 </html>
