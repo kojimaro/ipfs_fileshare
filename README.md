@@ -1,4 +1,4 @@
-# swarm_fileshare
+# Swarm Fileshare
 IPFS Fileshare
 
 「Swarm　Fileshare」は、<a href="https://github.com/ookimaki/ipfs_fileshare" target=_blank>ookimaki/ipfs_fileshare</a>をフォークしたものです。
