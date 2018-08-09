@@ -75,7 +75,7 @@ class App extends Component {
                                         </div>
                                     </FormGroup>
                                     <p> Please do not upload ilegal contents. This service assumes no responsibility.</p>
-                                    <p>This is open source project, source code is available on <a href="https://github.com/ookimaki/ipfs_fileshare">Github</a></p>
+                                    <p>This is open source project, source code is available on <a href="https://github.com/kojimaro/swarm_fileshare">Github</a></p>
 
                                     <Load isUploading={this.state.isUploading} />
 
